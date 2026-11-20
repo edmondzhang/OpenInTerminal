@@ -43,6 +43,7 @@ public enum SupportedApps: String, CaseIterable {
     case cursor = "Cursor"
     case neovim = "Neovim"
     case zed = "Zed"
+    case winc = "Winc"
     case emacs = "Emacs"
     // JetBrains
     case appCode = "AppCode"
@@ -152,6 +153,7 @@ public enum SupportedApps: String, CaseIterable {
         case .androidstudio: return ""
         case .neovim: return ""
         case .zed: return ""
+        case .winc: return "com.deeix.winc"
         case .emacs: return "org.gnu.Emacs"
         }
     }

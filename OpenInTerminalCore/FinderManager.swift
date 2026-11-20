@@ -199,6 +199,8 @@ public class FinderManager {
                                     appName = "IntelliJ IDEA"
                                 } else if appName == "PyCharm CE" {
                                     appName = "PyCharm"
+                                } else if appName.lowercased() == "winc" {
+                                    appName = "Winc"
                                 }
                             }
                             
